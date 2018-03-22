@@ -1,0 +1,85 @@
+#wrapper {
+  margin-left: 100px;
+}
+.left-sidebar {
+  margin-left: -100px;
+  width: 100px;
+  height: 100%;
+  position: fixed;
+  z-index: 0;
+  /*border:1px solid #4e5d6c;*/
+  overflow: auto;
+  background-color: #2b3e50;
+
+  /* Shadow Effect */
+  box-shadow: 8px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.right-content {
+  padding: 30px;
+}
+/*.sidebar li {
+  text-align: center;
+  background-color: #FFFFFF;
+  width: 100%;
+}*/
+.nav li a:hover {
+  background-color: #d9534f;
+  color: white;
+}
+
+/*.text-sidebar {
+  font-size: 8pt;
+  margin-left:-5px;
+}*/
+
+/* Glyphicon pada sidebar */
+.sidebar li a .glyphicon {
+  font-size: 20pt;
+  /*margin-left:-5px;*/
+}
+/* Glyphicon pada tab menu */
+.nav-tabs li a .glyphicon {
+ margin-right: 5px;
+}
+/*body {
+  background-color: #f0f1e9;
+}*/
+.text-sidebar {
+  font-size: 10pt;
+}
+ul li {
+  text-align: center;
+}
+.aktif {
+  background-color: #d9534f;
+}
+/* Data pada tabel align : center */
+table, th {
+  text-align: center;
+}
+
+/* Kotak Dashboard */
+.box-dashboard {
+  /*border:1px solid #1A1A1A;*/
+  text-align: center;
+}
+.box-inside-dashboard {
+  /*border:1px solid #E6E6E6;*/
+  padding:30px 20px 30px 20px;
+  background-color: #4e5d6c;
+  /* Shadow Effect */
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box-icon {
+  font-size:30pt;
+  /*border:1px solid yellow;*/
+}
+.box-text {
+  font-weight:bold;
+  font-size:12pt;
+}
+.box-text-group {
+  padding-left: 20px;
+  /*border:1px solid red;*/
+}
+/* Kotak Dashboard */
